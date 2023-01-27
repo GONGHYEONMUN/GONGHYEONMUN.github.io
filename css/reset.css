@@ -2,11 +2,11 @@ html {
   overflow: overlay;
 }
 html::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 html::-webkit-scrollbar-thumb {
-  background-color: rgba(138, 113, 75, 0.8);
-  border-radius: 8px;
+  background-image: linear-gradient(to bottom, #f8c7d5 0%, #9995ef 100%);
+  border-radius: 5px;
 }
 html::-webkit-scrollbar-track {
   border-radius: 8px;
@@ -19,14 +19,13 @@ html::-webkit-scrollbar-track {
 }
 
 body {
-  color: #333333;
-  font-family: "SCoreDream";
   font-weight: 200;
   font-size: 1.125em;
 }
 
 .wrapper {
   width: 100%;
+  background-color: pink;
   color: white;
 }
 
@@ -45,7 +44,6 @@ body {
 a {
   color: #333333;
   text-decoration: none;
-  font-family: "SCoreDream";
   font-weight: 100;
   font-size: 1em;
 }
@@ -53,7 +51,6 @@ a {
 h1 {
   font-size: 7.5em;
   font-weight: 200;
-  font-family: "SCoreDream";
 }
 
 h2 {
@@ -78,8 +75,4 @@ ul,
 ol,
 li {
   list-style: none;
-}
-
-.no {
-  display: none;
 }
